@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <br>
+        <input id="nome" type="text" name="nome" placeholder="Digite o seu nome aqui..." required/>
+
+        <br>
+
+        <label for="e-mail">E-mail</label>
+        <br>
+        <input id="e-mail" type="text" name="e-mail" placeholder="Digite o seu e-mail aqui..." required/>
+
+        <br>
+
+        <label for="descricao">O que te motivou participar do evento?</label>
+        <br>
+        <textarea id="descricao" placeholder="Descreva aqui..." required></textarea>
+
+        <br>
+
+        <label for="senha">Cadastre uma senha</label>
+        <br>
+        <input id="senha" type="password" name="senha" placeholder="Digite sua senha aqui" required/>
+
+        <br>
+
+        <label for="confirmarSenha">Confirme a senha</label>
+        <br>
+        <input id="confirmarSenha" type="password" name="confirmarSenha" placeholder="Confirme sua senha aqui" required/>
+        
+        <br>
+        <p>Deseja receber novidades em seu e-mail?</p>
+
+        <label for="Sim">Sim</label>
+        <input id="Sim" type="radio" name="opcao">
+
+        <label for="Nao">Não</label>
+        <input id="Nao" type="radio" name="opcao">
+
+        <br>
+
+        <button type="submit">Cadastrar</button>
+
+
+    </form>
+    
+</body>
+</html>
